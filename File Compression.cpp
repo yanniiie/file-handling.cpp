@@ -7,7 +7,6 @@ int main(){
      string text,s;
      vector<char> ch;
      string str;
-     string q="my name is Feruz";
      while(getline(fin,str)){
           int n = str.length();
           for (int i = 0; i < n; i++) {
@@ -16,7 +15,6 @@ int main(){
                     count++;
                     i++;
                }
-        
                newFile<<str[i]<<count;
           }
           newFile<<endl;
